@@ -1,8 +1,5 @@
 # BlackBoxPayloads
 
-أكيد يا نجم، ده نفس ملف README.md بس بالإنجليزي، احترافي وجاهز للرفع على GitHub:
-
-
 ---
 
 # 🐚 stealthShells
@@ -90,5 +87,8 @@ Created by ChatGPT + contributions from the cybersecurity community.
 
 
 ---
+
+
+
 
 
