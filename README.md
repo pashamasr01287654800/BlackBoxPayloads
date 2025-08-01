@@ -60,11 +60,22 @@ Encrypted output will be shown and/or saved to a new file.
 
 ---
 
-🔐 Example of Encrypted Payload Execution
+🔐 Example: Running an Encrypted Payload
 
-eval "$(echo <encrypted_string> | rev | tr 'A-Za-z' 'N-ZA-Mn-za-m' | base64 -d)"
+bash -c "$(echo '<encrypted_string>' | rev | tr 'A-Za-z' 'N-ZA-Mn-za-m' | base64 -d)"
 
-You can place this anywhere — in a script, cronjob, or exploit.
+You can place this in:
+
+Shell scripts
+
+Reverse shell exploits
+
+Scheduled cronjobs
+
+Obfuscated delivery chains
+
+
+> ✅ Supports payloads in Bash, Sh, Zsh, Python, PHP, Perl, Ruby, Netcat, Awk, Java, and more — even highly complex or multiline commands.
 
 
 ---
