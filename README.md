@@ -68,7 +68,6 @@ bash -c "$(echo '<payload>' | rev | tr 'A-Za-z' 'N-ZA-Mn-za-m' | base64 -d)"
 OS	Payloads
 
 Linux	bash, sh, zsh, python2/3, perl, php, ruby, nc, awk, java
-Windows	powershell_tcp, powershell_web, vbs, js, hta
 macOS	bash, zsh, python3
 
 
@@ -93,6 +92,7 @@ Misuse of this tool is entirely your own responsibility.
 
 
 ---
+
 
 
 
